@@ -14,7 +14,7 @@ $ sudo chmod +x python-producer.sh
 ````
 ````
 $ ./run-cluster.sh
-$ ./ python-producer.sh
+$ ./python-producer.sh
 $ ./shutdown-cluster.sh
 ````
 
