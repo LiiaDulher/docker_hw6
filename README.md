@@ -1,6 +1,10 @@
 # Docker hw6
 Kafka 2
+
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
+
+### Prerequiments
+Please put file <b>twcs.csv</b> in this directory.
 
 ### Usage
 ````
