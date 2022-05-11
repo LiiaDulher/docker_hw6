@@ -6,11 +6,9 @@ Kafka 2
 ````
 $ sudo chmod +x run-cluster.sh
 $ sudo chmod +x shutdown-cluster.sh
-$ sudo chmod +x create-topic.sh
 ````
 ````
 $ ./run-cluster.sh
-$ ./create-topic.sh
 
 $ ./shutdown-cluster.sh
 ````
