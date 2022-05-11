@@ -15,4 +15,5 @@ $ ./shutdown-cluster.sh
 ````
 
 ### Results
-
+![kafka ps](./results/kafka-write.png)
+![kafka read](./results/kafka-read.png)
