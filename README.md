@@ -6,10 +6,11 @@ Kafka 2
 ````
 $ sudo chmod +x run-cluster.sh
 $ sudo chmod +x shutdown-cluster.sh
+$ sudo chmod +x python-producer.sh
 ````
 ````
 $ ./run-cluster.sh
-
+$ ./ python-producer.sh
 $ ./shutdown-cluster.sh
 ````
 
