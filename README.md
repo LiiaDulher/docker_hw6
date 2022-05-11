@@ -18,6 +18,11 @@ $ ./python-producer.sh
 $ ./shutdown-cluster.sh
 ````
 
+Consumer
+````
+docker run -it --rm --network dulher-kafka-network -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181 bitnami/kafka:latest kafka-console-consumer.sh --bootstrap-server kafka-server:9092 --topic test-topic
+````
+
 ### Results
 ![kafka ps](./results/kafka-write.png)
 ![kafka read](./results/kafka-read.png)
